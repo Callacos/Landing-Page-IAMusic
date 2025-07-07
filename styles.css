@@ -172,31 +172,3 @@ footer {
   color: #888;
 }
 
-.cta-button {
-  transition: all 0.3s ease;
-}
-
-.cta-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px #1DB954;
-}
-
-.cover img {
-  transition: transform 0.5s ease;
-}
-
-.cover img:hover {
-  transform: rotate(-2deg) scale(1.02);
-}
-
-body {
-  background: linear-gradient(-45deg, #1e1e2f, #1db954, #121212, #242424);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
