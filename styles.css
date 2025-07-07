@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 4em 1em 2em;
+  background-color: #121212;
+  position: relative;
+}
+
+header img {
+  width: 500px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0.2em 0;
+  color: #1db954;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+nav {
+  margin-bottom: 2em; /* ou 20px si tu préfères */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1em 0;
+  margin: 0;
+  background-color: #0d0d0d;
+}
+
+nav a {
+  color: #1db954;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #1ed760;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 0.8em 1.5em;
+  background-color: #1db954;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #1ed760;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 4em 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 2em;
+  color: #1db954;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.feature h3 {
+  color: #1db954;
+  margin: 0.5em 0;
+}
+
+.feature p {
+  max-width: 600px;
+  color: #ccc;
+}
+
+.about {
+  background-color: #121212;
+  padding: 3em 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-top: 3em;
+}
+
+.about p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.links a {
+  color: #1db954;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #1ed760;
+  text-decoration: underline;
+}
+
+.social-icon svg {
+  fill: #1db954;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover svg {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #0d0d0d;
+  font-size: 0.9em;
+  color: #888;
+}
