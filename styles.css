@@ -120,6 +120,7 @@ section h2 {
   border-radius: 1em;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   margin-top: 3em;
+  text-align: center;
 }
 
 .about p {
