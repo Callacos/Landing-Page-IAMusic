@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>IAMusic – Landing page</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <body>
 <header>
   <nav>
@@ -31,33 +37,33 @@
 </div>
   <section id="features">
   <h2>Fonctionnalités principales</h2>
-  <div class="feature">
+  <div class="feature"data-aos="fade-up" data-aos-duration="1000">
     <img src="image/1.png" alt="Analyse des phrases">
     <h3>Analyse intelligente des phrases</h3>
     <p>IAMusic comprend vos émotions à travers vos mots pour générer des playlists adaptées.</p>
   </div>
-  <div class="feature">
+  <div class="feature" data-aos="fade-up" data-aos-duration="1000">
     <img src="image/2.png" alt="Suggestions musicales">
-    <h3>Envie de musique rapidement et sans prise de tete ?</h3>
-    <p>Des playlists en un clique qui vous fait découvrir ou redecouvrir des artistes.</p>
+    <h3>Envie de musique rapidement et sans prise de tête ?</h3>
+    <p>Des playlists en un clic pour vous faire découvrir ou redécouvrir des artistes.</p>
   </div>
-  <div class="feature">
+  <div class="feature" data-aos="fade-up" data-aos-duration="1000">
 	<img src="image/5.png" alt="Artiste de la semaine">
 	<h3>Artiste de la semaine</h3>
-	<p>IAMusic écoute ces utilisateur en leur laissant le choix de l'artiste de la semaine grace au vote qu'il organise sur les résaux sociaux.</p>
+	<p>Chaque semaine, IAMusic met en avant un artiste sélectionné par la communauté via un vote sur les réseaux sociaux.</p>
 	  </div>
-	    <div class="feature">
+	    <div class="feature" data-aos="fade-up" data-aos-duration="1000">
 	<img src="image/6.png" alt="Titre de la semaine">
 	<h3>Titre de la semaine</h3>
-	<p>IAMusic crée également des votes pour la musique de la semaine sur les résaux sociaux.</p>
+	<p>IAMusic organise également des votes pour élire la musique de la semaine sur les réseaux sociaux.</p>
 	  </div>
-  <div class="feature">
+  <div class="feature" data-aos="fade-up" data-aos-duration="1000">
     <img src="image/3.png" alt="plateformes">
     <h3>Conçu exclusivement pour Spotify</h3>
-    <p>IAMusic à choisi de privilégié Spotify uniquement...</p>
+    <p>IAMusic a choisi de privilégié Spotify uniquement...</p>
   </div>
   
-  <div class="feature">
+  <div class="feature" data-aos="fade-up" data-aos-duration="1000">
 	<h3>Résaux sociaux</h3>
 	<a href="https://www.tiktok.com/@iamusic_officiel" class="social-icon" target="_blank" rel="noopener" aria-label="TikTok">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -69,14 +75,14 @@
             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
           </svg>
         </a>
-	<p>Suivez IAMusic sur les résaux pour avoir toutes les nouvelles news et voter.</p>
+	<p>Suivez IAMusic sur les réseaux pour ne rien manquer et participer aux votes.</p>
 </section>
 
 <section id="about">
   <h2>À propos de IAMusic</h2>
   <p>IAMusic est une application web qui utilise l'intelligence artificielle pour analyser les phrases des utilisateurs et générer des playlists adaptées à leur humeur. Elle est conçue pour être simple et rapide, permettant aux utilisateurs de découvrir de la musique sans effort.</p>
   <p>IAMusic est actuellement en version bêta et est disponible exclusivement sur Spotify.</p>
-  <p>Attention vous ne pourrez pas utilisé IAMusic si vous ne possédez pas de compte Spotify premium.</p>
+  <p>Attention : vous ne pourrez pas utiliser IAMusic sans compte Spotify Premium.</p>
 </section>
 
 
